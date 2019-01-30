@@ -1,0 +1,14 @@
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: springbootdemo.demo.domain
+#  config-locations: classpath:SqlMapConfig.xml
+
+spring:
+  datasource:
+    username: root
+    password: youyicheng
+    url: jdbc:mysql://192.168.1.141:3306/app_db?allowMultiQueries=true
+    driver-class-name: com.mysql.jdbc.Driver
+
+#mapper.mappers=tk.mybatis.mapper.common.Mapper
+#mapper.notEmpty=true
