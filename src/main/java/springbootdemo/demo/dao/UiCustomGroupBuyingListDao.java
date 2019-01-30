@@ -1,6 +1,5 @@
 package springbootdemo.demo.dao;
 
-import springbootdemo.demo.domain.UiCustomGroupBuyingList;
 
 /**
  * 拼团活动列表页自定义 Dao
